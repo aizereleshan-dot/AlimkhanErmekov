@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>ӘЛІМХАН ЕРМЕКОВ: МЕМЛЕКЕТШІЛДІК МИССИЯСЫ МЕН ҒЫЛЫМ ФЕНОМЕНІ</title>
+  
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="ӘЛІМХАН ЕРМЕКОВ: МЕМЛЕКЕТШІЛДІК МИССИЯСЫ МЕН ҒЫЛЫМ ФЕНОМЕНІ">
+  <meta name="description" content="Назарбаев Зияткерлік мектептерінің халықаралық ғылыми-тәжірибелік конференциясына арналған Әлімхан Ермековтің (1891–1970) мемлекетшілдік миссиясы мен ғылыми феномені туралы интерактивті инфографика сайты.">
+  <meta name="keywords" content="Әлімхан Ермеков, Алимхан Ермеков, Алаш, Алашорда, 1920 шекара, Ұлы математика курсы, НЗМ конференция, инфографика, Қазақстан шекарасы">
+  <meta name="author" content="NIS International Student Conference Research Project">
+  <meta name="theme-color" content="#071324">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ӘЛІМХАН ЕРМЕКОВ: МЕМЛЕКЕТШІЛДІК МИССИЯСЫ МЕН ҒЫЛЫМ ФЕНОМЕНІ">
+  <meta property="og:description" content="Интерактивті карта, 1920 жылғы шекара хроникасы, «Ұлы математика курсы» (1935) және тарихи мұра инфографикасы.">
+  <meta property="og:image" content="ermekov_ehistory.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="ermekov_ehistory.jpg">
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Root mount point for React Application -->
+  <div id="root">
+    <!-- Server/Offline Fallback if JS takes time -->
+    <noscript>
+      <div style="padding: 3rem; text-align: center; color: #FFF; background: #071324; min-height: 100vh;">
+        <h1 style="color: #D4AF37; font-family: Georgia, serif;">ӘЛІМХАН ӘБЕУҰЛЫ ЕРМЕКОВ (1891–1970)</h1>
+        <p style="margin-top: 1rem; color: #CBD5E1; max-width: 600px; margin-left: auto; margin-right: auto;">
+          Интерактивті инфографика сайтын көру үшін JavaScript қолдауын қосыңыз. 
+          Бұл веб-сайт Назарбаев Зияткерлік мектептері конференциясына арнайы жасалған.
+        </p>
+      </div>
+    </noscript>
+  </div>
+
+  <!-- React 18 Core Libraries (Local Offline-First with CDN Fallbacks) -->
+  <script src="react.production.min.js"></script>
+  <script>
+    if (!window.React) {
+      document.write('<script src="https://unpkg.com/react@18/umd/react.production.min.js"><\/script>');
+    }
+  </script>
+
+  <script src="react-dom.production.min.js"></script>
+  <script>
+    if (!window.ReactDOM) {
+      document.write('<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"><\/script>');
+    }
+  </script>
+
+  <!-- HTM Tagged Template Engine for Native JSX (Zero Build Step, Zero CORS) -->
+  <script src="htm.js"></script>
+  <script>
+    if (!window.htm) {
+      document.write('<script src="https://unpkg.com/htm@3.1.1/dist/htm.umd.js"><\/script>');
+    }
+  </script>
+
+  <!-- Application Trilingual Data Store -->
+  <script src="data.js"></script>
+
+  <!-- Application Interactive Core -->
+  <script src="app.js"></script>
+
+</body>
+</html>
